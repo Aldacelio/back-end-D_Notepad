@@ -11,6 +11,6 @@ namespace D_Notepad_back.Views
         Pensamento GetById(int id);
         void Update(Pensamento pensamento);
         void Delete(Pensamento pensamento);
-        
+
     }
 }

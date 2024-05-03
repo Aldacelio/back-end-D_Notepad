@@ -13,6 +13,6 @@
         public string autoria { get; set; }
         public string modelo { get; set; }
 
-        
+
     }
 }

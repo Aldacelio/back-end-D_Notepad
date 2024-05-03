@@ -33,7 +33,7 @@ namespace D_Notepad_back.Controllers
             return Ok(pensamento);
         }
 
-         [HttpGet("{id}")]
+        [HttpGet("{id}")]
         public IActionResult GetById(int id)
         {
             var pensamento = _pesamentoRepository.GetById(id);
@@ -53,7 +53,7 @@ namespace D_Notepad_back.Controllers
                 return NotFound(); // Retorna 404 se não encontrar o pensamento com o ID especificado
             }
 
-             pensamento.AtualizarPensamento(pensamentoView.conteudo, pensamentoView.autoria, pensamentoView.modelo);
+            pensamento.AtualizarPensamento(pensamentoView.conteudo, pensamentoView.autoria, pensamentoView.modelo);
 
             _pesamentoRepository.Update(pensamento);
 

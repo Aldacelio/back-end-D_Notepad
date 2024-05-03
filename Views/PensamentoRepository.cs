@@ -21,7 +21,7 @@ namespace D_Notepad_back.Views
             var pensamento = _context.Pensamentos.FirstOrDefault(p => p.id == id);
             if (pensamento == null)
             {
-                 throw new Exception("Pensamento não encontrado com o ID especificado.");
+                throw new Exception("Pensamento não encontrado com o ID especificado.");
             }
 
             return pensamento;
