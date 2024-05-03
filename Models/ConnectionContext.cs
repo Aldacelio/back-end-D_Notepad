@@ -11,7 +11,7 @@ namespace D_Notepad_back.Models
                 "Server=localhost;" +
                 "Port=5432;Database=dNotepad;" +
                 "User Id=postgres;" +
-                "Password=081501;"
+                "Password=;"
             );
 
     }
