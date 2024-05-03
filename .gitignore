@@ -1,0 +1,30 @@
+# Binários
+*.exe
+*.dll
+*.pdb
+
+# Pastas
+bin/
+obj/
+
+# Arquivos de compilação
+*.user
+*.suo
+
+# Pacotes NuGet
+packages/
+
+# Arquivos gerados por ferramentas
+*.cache
+*.log
+*.pgsql
+
+# Arquivos de backup
+*~
+
+# Arquivos de configuração
+*.config
+
+# Visual Studio files
+.vs/
+.vscode/
